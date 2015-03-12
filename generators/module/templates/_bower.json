@@ -1,0 +1,11 @@
+{
+  "name": "<%= appname %>",
+  "version": "<%= version %>",
+  "description": "<%= description %>",
+  "main": "./main.js",
+  "ignore": [],
+  "author": {
+    "name": "<%= user.name %>",
+    "email": "<%= user.email %>"
+  }
+}
