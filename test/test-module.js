@@ -7,7 +7,7 @@ var assert = require('yeoman-generator').assert;
 var helpers = require('yeoman-generator').test;
 var os = require('os');
 
-describe('nd:module', function () {
+describe('mooc:module', function () {
 
   describe('all defaults', function () {
     before(function (done) {
@@ -29,6 +29,7 @@ describe('nd:module', function () {
         'HISTORY.md',
         'index.js',
         'package.json',
+        'bower.json',
         'README.md'
       ]);
 
@@ -62,6 +63,7 @@ describe('nd:module', function () {
         'Gruntfile.js',
         'HISTORY.md',
         'index.js',
+        'bower.json',
         'package.json',
         'README.md'
       ]);

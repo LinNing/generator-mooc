@@ -21,15 +21,3 @@
 
     浏览器中访问 http://127.0.0.1:8851
 
-    DEBUG 请访问 http://127.0.0.1:8851/?debug
-
-## 样例
-
-    ```html
-    <script src="<%= appname %>/lib/seajs/sea.js"></script>
-    <script src="<%= appname %>/lib/config.js"></script>
-    <script>
-      // <%= appname %>/app/**/*.js
-      seajs.use('<%= appname %>/app/<folder>/<file>');
-    </script>
-    ```

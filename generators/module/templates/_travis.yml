@@ -4,13 +4,5 @@ node_js:
   - "0.10"
 
 install:
-  - npm install spm coveralls
+  - npm install bower coveralls
 
-before_script:
-  - node_modules/spm/bin/spm-install
-
-script:
-  - node_modules/spm/bin/spm-test
-
-after_success:
-  - node_modules/spm/bin/spm-test --coveralls | node_modules/.bin/coveralls

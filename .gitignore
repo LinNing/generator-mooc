@@ -20,6 +20,7 @@ Thumbs.db
 node_modules
 _site
 sea-modules
+bower_components
 spm_modules
 .cache
 dist

@@ -1,6 +1,6 @@
 {
   "name": "generator-mooc",
-  "version": "0.0.0",
+  "version": "0.0.3",
   "description": "generate front-end files for projects and modules",
   "keywords": [
     "yeoman-generator",
@@ -23,7 +23,7 @@
   "main": "generators/app/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ndfront/generator-mooc.git"
+    "url": "https://github.com/LinNing/generator-mooc.git"
   },
   "scripts": {
     "test": "mocha"
@@ -49,8 +49,6 @@
       "type": "MIT"
     }
   ],
-  "readme": "# generator-mooc\r\n\r\n[![NPM version](https://img.shields.io/npm/v/generator-mooc.svg?style=flat-square)](https://npmjs.org/package/generator-mooc)\r\n[![Build Status](https://img.shields.io/travis/ndfront/generator-mooc.svg?style=flat-square)](https://travis-ci.org/ndfront/generator-mooc)\r\n[![NPM downloads](http://img.shields.io/npm/dm/generator-mooc.svg?style=flat-square)](https://npmjs.org/package/generator-mooc)\r\n[![David](http://img.shields.io/david/ndfront/generator-mooc.svg?style=flat-square)](https://npmjs.org/package/generator-mooc)\r\n[![David](http://img.shields.io/david/dev/ndfront/generator-mooc.svg?style=flat-square)](https://npmjs.org/package/generator-mooc)\r\n\r\n> Yeoman 生成器，用于生成基于 SeaJS/SPM 的前端项目/组件文件结构，样例代码见 [examples](https://github.com/ndfront/examples)。\r\n\r\n\r\n## 安装\r\n\r\n- **安装 yo**\r\n\r\n    ```bash\r\n    $ npm install -g yo\r\n    ```\r\n\r\n- **安装 generator**\r\n\r\n    ```bash\r\n    $ npm install -g generator-mooc\r\n    ```\r\n\r\n- **安装 spm**\r\n\r\n    ```bash\r\n    $ npm install -g spm\r\n    ```\r\n\r\n## 使用\r\n\r\n### 项目目录结构\r\n\r\n- **生成**\r\n\r\n    ```bash\r\n    $ yo nd\r\n    ```\r\n\r\n- **说明**\r\n\r\n    ```\r\n    |-<name> <外部目录，非本脚本生成>\r\n        |-app/ <业务模块>\r\n        |-dist/ <构建后的 APP 文件>\r\n        |-lib/ <通用的第三方库>\r\n            |-seajs/\r\n                |-sea.js\r\n                |-sea-debug.js\r\n            |-config.js <配置文件，READONLY>\r\n            |-config.js.tpl <配置文件模板>\r\n        |-mod/ <通用模块，非业务类>\r\n        |-node_modules/ <NPM 模块>\r\n        |-spm_modules/ <SPM 模块>\r\n        |-theme/ <主题目录>\r\n            |-default/\r\n                |-css/ <样式>\r\n                |-scss/ <SASS>\r\n                |-font/ <字体>\r\n                |-img/ <图片>\r\n        |-.editorconfig\r\n        |-.gitignore\r\n        |-.jshintrc\r\n        |-Gruntfile.js\r\n        |-package.json\r\n        |-README.md\r\n    ```\r\n\r\n### 组件目录结构\r\n\r\n- **生成**\r\n\r\n    ```bash\r\n    $ mkdir <name>\r\n    $ cd <name>\r\n    $ yo nd:module\r\n    ```\r\n\r\n- **说明**\r\n\r\n    ```\r\n    |-<name> <外部目录，非本脚本生成>\r\n        |-examples/\r\n        |-node_modules/\r\n        |-spm_modules/\r\n        |-tests/\r\n        |-.editorconfig\r\n        |-.gitignore\r\n        |-.jshintrc\r\n        |-.spmignore\r\n        |-.travis.yml\r\n        |-Gruntfile.js\r\n        |-HISTORY.md\r\n        |-index.js\r\n        |-package.json\r\n        |-README.md\r\n    ```\r\n",
   "readmeFilename": "README.md",
-  "_id": "generator-mooc@0.1.30",
   "_from": "generator-mooc@"
 }
